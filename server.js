@@ -31,15 +31,32 @@ http.createServer((req, res) => {
         <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>Greeting</title>
-            <link rel="stylesheet" href="/styles.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Greeting Page</title>
             <style>
-                body { background-color: ${color}; }
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                    text-align: center;
+                }
+                h1 {
+                    color: #333;
+                }
+                .back-link {
+                    margin-top: 20px; /* Add some spacing above the link */
+                    display: inline-block; /* Ensure the link is displayed as a block element */
+                    text-decoration: none;
+                    color: #007BFF;
+                    font-size: 1rem;
+                }
+                .back-link:hover {
+                    text-decoration: underline;
+                }
             </style>
         </head>
         <body>
-            <p><h1>Hi there ${name}! </h1></p><br><br>
-            <p><a href="/"><h6> Go Back</a></p></h6>
+            <h1>Hi there ${name}!</h1> <!-- Greeting message -->
+            <a href="/" class="back-link">Go Back</a> <!-- 'Go Back' link below the greeting message -->
         </body>
         </html>
         `;
