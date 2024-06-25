@@ -38,8 +38,8 @@ http.createServer((req, res) => {
             </style>
         </head>
         <body>
-            <p><h1>Hello, ${name}! </h1></p><br><br>
-            <p><a href="/"> Go Back</a></p>
+            <p><h1>Hi there ${name}! </h1></p><br><br>
+            <p><a href="/"><h6> Go Back</a></p></h6>
         </body>
         </html>
         `;
