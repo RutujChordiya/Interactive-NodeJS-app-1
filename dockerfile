@@ -1,7 +1,9 @@
 FROM node:22-alpine3.19
 
+WORKDIR app
+
 COPY . .
 
-RUN apt-get install nodejs
+RUN npm install
 
 CMD "node server.js" 
