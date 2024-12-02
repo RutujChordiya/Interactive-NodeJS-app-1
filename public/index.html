@@ -15,8 +15,14 @@
             <input type="color" id="color" name="color" required>
             <button type="submit">Submit</button>
         </form>
-        <!-- Deprecated <font> tag usage -->
-        <font color="red">This text uses the deprecated <font> tag.</font>
+        <script>
+            try {
+                // Simulate a potential error
+                throw new Error("Test error");
+            } catch (e) {
+                // Empty catch block
+            }
+        </script>
     </div>
 </body>
 </html>
