@@ -4,14 +4,6 @@
     <meta charset="UTF-8">
     <title>Favorite Color</title>
     <link rel="stylesheet" href="/styles.css">
-    <script>
-        // Declaring an unused variable
-        let unusedVariable = 'This variable is never used';
-
-        document.onload = function() {
-            alert('Page Loaded!');
-        }
-    </script>
 </head>
 <body>
     <div class="container">
@@ -22,9 +14,9 @@
             <label for="color">Enter your favorite color : </label>
             <input type="color" id="color" name="color" required>
             <button type="submit">Submit</button>
-            <!-- Missing alt attribute for image (Common SonarQube issue) -->
-            <img src="image.png">
         </form>
+        <!-- Deprecated <font> tag usage -->
+        <font color="red">This text uses the deprecated <font> tag.</font>
     </div>
 </body>
 </html>
