@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nodeapp-backstage
+  description: This is to test the linking of a service with backstage.
+  tags:
+    - go
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: devops
