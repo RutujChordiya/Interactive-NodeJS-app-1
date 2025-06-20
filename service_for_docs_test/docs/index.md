@@ -1,2 +1,2 @@
 Hi there!
-This is an techdocs example..
+This is an techdocs test for Perennial's IDP..
