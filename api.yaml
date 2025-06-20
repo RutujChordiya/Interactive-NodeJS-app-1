@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: artist-api
+  name: swagger-api
   description: Retrieve artist details
 spec:
   type: openapi
